@@ -2,6 +2,8 @@
 
 Convert your whiteboard photos and diagram drawings into beautiful presentations instantly! OWL uses advanced AI to transform your handwritten notes and sketches into professional PowerPoint presentations with just a few clicks.
 
+![System Design](systemdesign.png)
+
 ##  Features
 
 - **Image to Presentation**: Upload images of whiteboards, diagrams, or handwritten notes
@@ -71,7 +73,3 @@ Convert your whiteboard photos and diagram drawings into beautiful presentations
 - **AI Models**:
   - Vision Language Model (VLM) for image understanding (NVIDIA Nemotron)
   - Language Model (LLM) for content enhancement
-
-### System Architecture
-
-![System Design](systemdesign.png)
