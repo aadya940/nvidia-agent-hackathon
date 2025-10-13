@@ -47,7 +47,7 @@ Convert your whiteboard photos and diagram drawings into beautiful presentations
 
 3. Open your browser and navigate to `http://localhost:8501`
 
-## 🖼️ How to Use
+## How to Use
 
 1. **Upload an Image**
    - Click "Upload Image" and select your whiteboard or diagram photo
@@ -62,7 +62,7 @@ Convert your whiteboard photos and diagram drawings into beautiful presentations
    - Preview the generated slides
    - Download the PowerPoint file when ready
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Architecture
 
