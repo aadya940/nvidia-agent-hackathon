@@ -1,0 +1,10 @@
+Go to Powershell as admin:
+`adk api_server`
+
+In another terminal,
+`streamlit run frontend.py`
+
+Upload Image:
+`test_compressed_small.jpg`
+
+npm install jsonrepair
