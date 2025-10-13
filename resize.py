@@ -61,8 +61,8 @@ def compress_image(input_path, output_path, quality=20, max_dimension=800, targe
 # Usage - be more aggressive with compression
 # Even more aggressive compression
 compress_image(
-    "test_compressed.jpg", 
-    "test_compressed_small.jpg",
+    "test2.jpg", 
+    "test2_compressed_small.jpg",
     quality=20,         # Lower starting quality
     max_dimension=600,  # Smaller max dimension
     target_size_kb=150  # Target ~150KB (base64 will be ~200KB)

@@ -7,7 +7,8 @@ from pathlib import Path
 
 st.set_page_config(page_title="Whiteboard to PPT", layout="centered")
 
-st.title("📊 Whiteboard to PowerPoint Agent")
+st.title("OWL: Object-to-Word Language")
+st.image("_OWL.jpg")
 st.markdown("Convert your whiteboard photos into beautiful presentations instantly!")
 
 # Configuration
@@ -27,17 +28,10 @@ with col1:
         "Select Language",
         [
             "English",
-            "Arabic",
             "French",
             "German",
             "Italian",
-            "Japanese",
-            "Korean",
-            "Portuguese",
-            "Russian",
             "Spanish",
-            "Chinese",
-            "Vietnamese",
         ],
     )
     st.subheader("Upload Image")
@@ -69,7 +63,7 @@ with col2:
         st.info("🔄 No presentation yet. Upload an image and process it.")
 
 if uploaded_image:
-    if st.button("🚀 Generate Presentation", use_container_width=True):
+    if st.button("Generate Presentation", use_container_width=True):
         with st.spinner("Processing your image..."):
             try:
                 # Generate unique session IDs
@@ -120,7 +114,7 @@ if uploaded_image:
                         },
                         "streaming": False,
                     },
-                    timeout=60,
+                    timeout=300,
                 )
 
                 if run_response.status_code != 200:
